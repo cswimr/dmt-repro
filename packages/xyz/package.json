@@ -1,0 +1,23 @@
+{
+  "name": "xyz",
+  "module": "src/index.ts",
+  "version": "1.0.0",
+  "type": "module",
+  "author": {
+    "name": "cswimr",
+    "email": "seaswimmerthefsh@gmail.com"
+  },
+  "files": [
+    "src"
+  ],
+  "readme": "README.md",
+  "scripts": {},
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "entryPoints": ["packages/*"],
+  "entryPointStrategy": "packages",
+  "name": "dmt-repro",
+  "packageOptions": {
+    "includeVersion": true,
+    "entryPoints": ["src/**/*.ts"]
+  },
+  "outputs": [
+    {
+      "name": "html",
+      "path": "./.generated_docs/html"
+    }
+  ],
+  "includeVersion": false,
+  "theme": "default-modern",
+  "plugin": ["@typhonjs-typedoc/typedoc-theme-dmt"],
+  "logLevel": "Verbose"
+}
